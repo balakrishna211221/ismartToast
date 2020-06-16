@@ -1,0 +1,2 @@
+include ':app', ':baluismarttoast'
+rootProject.name='IstmartToasrt'
