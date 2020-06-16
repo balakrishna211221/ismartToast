@@ -12,13 +12,13 @@ import android.widget.Toast;
 
 import androidx.cardview.widget.CardView;
 
+
 public class IsmartToast {
     TextView textView;
-    Context context;
     ImageView imageView;
     CardView cardView;
 
-    void setIsmartToast(Activity mActivity , String message, Boolean Showimage, int textcolor, int Toastbackgroundcolor, Drawable image)
+    public void setIsmartToast(Activity mActivity , String message, Boolean Showimage, int textcolor, int Toastbackgroundcolor, Drawable image)
     {
 
         LayoutInflater mInflater = /*(LayoutInflater)
