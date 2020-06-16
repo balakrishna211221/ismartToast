@@ -18,7 +18,7 @@ public class IsmartToast {
     ImageView imageView;
     CardView cardView;
 
-    public void setIsmartToast(Activity mActivity , String message, Boolean Showimage, int textcolor, int Toastbackgroundcolor, Drawable image)
+    public void show(Activity mActivity , String message, Boolean Showimage, int textcolor, int Toastbackgroundcolor, Drawable image)
     {
 
         LayoutInflater mInflater = /*(LayoutInflater)
