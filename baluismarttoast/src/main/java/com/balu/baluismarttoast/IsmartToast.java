@@ -47,7 +47,7 @@ public class IsmartToast {
 
         }
         else {
-            textView.setText("balu");
+            textView.setText(message);
             textView.setTextColor(textcolor);
             cardView.setCardBackgroundColor(Toastbackgroundcolor);
             imageView.setVisibility(View.GONE);
