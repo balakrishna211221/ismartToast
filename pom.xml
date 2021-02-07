@@ -1,0 +1,6 @@
+<dependency>
+  <groupId>org.jfrog.buildinfo</groupId>
+  <artifactId>build-info-extractor-gradle</artifactId>
+  <version>4.20.0</version>
+  <type>pom</type>
+</dependency>
